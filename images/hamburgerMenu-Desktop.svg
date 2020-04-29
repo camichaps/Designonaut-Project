@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="35px" viewBox="0 0 52 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>hamburgerMenu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---map" transform="translate(-1309.000000, -57.000000)" stroke="#CCCCCC">
+            <g id="hamburgerMenu" transform="translate(1308.000000, 57.000000)">
+                <g>
+                    <path d="M52.4467667,3.7388 L20.0224333,3.7388" id="Stroke-1" stroke-width="6"></path>
+                    <path d="M52,18 L9,18" id="Stroke-4" stroke-width="6"></path>
+                    <path d="M52.4787778,31.9988 L0.998777778,31.9988" id="Stroke-6" stroke-width="6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

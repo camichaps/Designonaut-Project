@@ -1,0 +1,519 @@
+html {
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1367px) {* 
+
+    /* {
+        background: #000 !important;
+        color: #0f0 !important;
+        outline: solid #f00 1px !important;
+      } */
+
+      h1{
+        font-size: 38px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 10.5px;
+        color: #333333;
+      }
+
+      h2{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: #333333;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 1.3;
+        color: #999999;
+    }
+
+      .grid{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 75px 1fr 2fr 75px;
+        grid-template-rows: 50px 1fr 50px;
+        grid-template-areas: "a b c d"
+                             "e f g h"
+                             "i j k l";
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        overflow: hidden;
+    }
+
+.rotate-text{
+    transform: rotate(-90deg);
+
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.title-box{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#title-container{
+    width: 75px;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+#logo {
+    grid-area: inherit;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    padding-right: 28px;
+}
+
+#subtitle{
+    height: auto;
+    width: 400%;
+    position: absolute;
+    top: 122px;
+    left: -91px;
+    color: #65C8D0;
+    text-align: right;
+}
+
+.grey-bkg{
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 3;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+
+.location-container{
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+#tokyo{
+    width: 148px;
+    height: auto;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    text-align: right;
+}
+
+#location-line{
+    width: 100px;;
+    height: 2px;
+    position: absolute;
+    left: 140px;
+    bottom: 9px;
+}
+
+.imagery-box{
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+#blueglobe-img{
+    width: 810px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 55px;
+}
+
+#astronaut1{
+    height: 650px;
+    width: auto;
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+}
+
+
+}
+
+@media only screen and (min-width: 763px) and (max-width: 1024px) {
+
+/* {
+        background: #000 !important;
+        color: #0f0 !important;
+        outline: solid #f00 1px !important;
+      } */
+
+      h1{
+        font-size: 38px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 10.5px;
+        color: #333333;
+      }
+
+      h2{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: #333333;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 1.3;
+        color: #999999;
+    }
+
+      .grid{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 35px 1fr 2fr 35px;
+        grid-template-rows: 30px 1fr 30px;
+        grid-template-areas: "a b c d"
+                             "e f g h"
+                             "i j k l";
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        overflow: hidden;
+      }
+
+      
+      .rotate-text{
+        transform: rotate(-90deg);
+    
+        /* Legacy vendor prefixes that you probably don't need... */
+    
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+    
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+    
+        /* IE */
+        -ms-transform: rotate(-90deg);
+    
+        /* Opera */
+        -o-transform: rotate(-90deg);
+    
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
+    }
+    
+    .title-box{
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #title-container{
+        width: 75px;
+        height: 60%;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    
+    }
+    
+    #logo {
+        grid-area: inherit;
+        height: 75%;
+        width: auto;
+        position: absolute;
+        padding-right: 28px;
+        top: 50px;
+    }
+    
+    #subtitle{
+        height: auto;
+        width: 400%;
+        position: absolute;
+        top: 172px;
+        left: -91px;
+        color: #65C8D0;
+        text-align: right;
+    }
+    
+    .grey-bkg{
+        grid-column: 3 / span 2;
+        grid-row: 1 / span 3;
+        width: 100%;
+        height: 100%;
+        background-color: #333333;
+    }
+    
+    .location-container{
+        width: 230px;
+        height: 50px;
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    
+    }
+    
+    #tokyo{
+        width: 148px;
+        height: auto;
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        text-align: right;
+    }
+    
+    #location-line{
+        width: 100px;;
+        height: 2px;
+        position: absolute;
+        left: 140px;
+        bottom: 9px;
+    }
+    
+    .imagery-box{
+        grid-column: 3 / span 2;
+        grid-row: 2 / span 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 3;
+    }
+    
+    #blueglobe-img{
+        width: auto;
+        height: 100%;
+        position: absolute;
+        left: 100px;
+        top: 55px;
+    }
+    
+    #astronaut1{
+        height: 100%;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 763px) {
+
+/* {
+        background: #000 !important;
+        color: #0f0 !important;
+        outline: solid #f00 1px !important;
+      } */
+
+    h1{
+        font-size: 38px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 10.5px;
+        color: #333333;
+      }
+
+      h2{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: #333333;
+    }
+    
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 1.3;
+        color: #999999;
+    }
+
+      .grid{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 20px 1fr 2fr 20px;
+        grid-template-rows: 20px 1fr 20px;
+        grid-template-areas: "a b c d"
+                             "e f g h"
+                             "i j k l";
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        overflow: hidden;
+      }
+
+      
+      .rotate-text{
+        transform: rotate(-90deg);
+    
+        /* Legacy vendor prefixes that you probably don't need... */
+    
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+    
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+    
+        /* IE */
+        -ms-transform: rotate(-90deg);
+    
+        /* Opera */
+        -o-transform: rotate(-90deg);
+    
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    
+    }
+    
+    .title-box{
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #title-container{
+        width: 75px;
+        height: 60%;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    
+    }
+    
+    #logo {
+        grid-area: inherit;
+        height: 75%;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 35px;
+    }
+    
+    #subtitle{
+        height: auto;
+        width: 400%;
+        position: absolute;
+        top: 172px;
+        left: -91px;
+        color: #65C8D0;
+        text-align: right;
+        visibility: hidden;
+    }
+    
+    .grey-bkg{
+        grid-column: 3 / span 2;
+        grid-row: 1 / span 3;
+        width: 100%;
+        height: 100%;
+        background-color: #333333;
+    }
+    
+    .location-container{
+        visibility: hidden;
+    
+    }
+    
+    #tokyo{
+        width: 148px;
+        height: auto;
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        text-align: right;
+    }
+    
+    #location-line{
+        width: 100px;;
+        height: 2px;
+        position: absolute;
+        left: 140px;
+        bottom: 9px;
+        visibility: hidden;
+    }
+    
+    .imagery-box{
+        grid-column: 3 / span 2;
+        grid-row: 2 / span 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 3;
+        overflow: hidden;
+    }
+    
+    #blueglobe-img{
+        width: auto;
+        height: 100%;
+        position: absolute;
+        left: -20%;
+        top: 55px;
+    }
+    
+    #astronaut1{
+        height: 100%;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        top: 35px;
+    }
+
+
+    }

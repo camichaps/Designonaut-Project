@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="203px" height="42px" viewBox="0 0 203 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>CTA</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---map" transform="translate(-136.000000, -904.000000)">
+            <g id="CTA/dsc" transform="translate(136.000000, 835.000000)">
+                <g id="CTA" transform="translate(0.000000, 69.000000)">
+                    <path d="M183.140922,42 L19.8546859,42 C8.88871582,42 0,33.1826574 0,22.3047402 L0,19.7039726 C0,8.82169899 8.88871582,0 19.8546859,0 L183.140922,0 C194.111284,0 203,8.82169899 203,19.7039726 L203,22.3047402 C203,33.1826574 194.111284,42 183.140922,42" id="button---bkg" fill="#65C8D0"></path>
+                    <g id="wording" transform="translate(62.000000, 7.000000)">
+                        <text id="view" font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" letter-spacing="1.894737" fill="#FFFFFF">
+                            <tspan x="18.210526" y="18">view</tspan>
+                        </text>
+                        <path d="M18.5,25 L59.5,25" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
